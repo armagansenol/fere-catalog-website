@@ -1,0 +1,11 @@
+.header {
+  z-index: z-index("header");
+
+  .nav {
+    gap: desktop-vw(50px);
+
+    .logoC {
+      @include dims(desktop-vw(120px), desktop-vw(80px));
+    }
+  }
+}
