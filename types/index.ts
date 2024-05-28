@@ -1,4 +1,5 @@
 import { NextSeoProps } from "next-seo"
+import { StaticImageData } from "next/image"
 
 export interface Seo {
   title: NextSeoProps["title"]
@@ -42,7 +43,7 @@ export interface CardCompanyDetail {
 
 export interface Media {
   type: MediaType
-  src: string
+  src: string | StaticImageData
   height?: number
   width?: number
 }

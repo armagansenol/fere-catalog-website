@@ -2,7 +2,7 @@ import { ReactNode, useRef, useState } from "react"
 import s from "./scrollable-box.module.scss"
 
 import { gsap } from "@/lib/gsap"
-import Lenis from "@studio-freight/lenis"
+import Lenis from "lenis"
 import cn from "clsx"
 import { useIsomorphicLayoutEffect } from "usehooks-ts"
 

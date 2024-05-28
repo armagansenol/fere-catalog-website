@@ -6,6 +6,7 @@ import { ReactNode } from "react"
 
 import { CustomHead } from "@/components/utility/custom-head"
 
+import { Footer } from "@/components/footer"
 import { baseUrl } from "@/lib/constants"
 import { Seo } from "@/types"
 
@@ -30,7 +31,6 @@ const DefaultLayout = ({ children, seo, theme = "light" }: Props) => {
               "startup",
               "investment",
               "investor",
-              "pentas ventures",
               "silicon walley",
               "finance",
               "technology",
@@ -39,7 +39,8 @@ const DefaultLayout = ({ children, seo, theme = "light" }: Props) => {
             ],
           }))}
       />
-      {children}
+      <div>{children}</div>
+      <Footer />
     </div>
   )
 }

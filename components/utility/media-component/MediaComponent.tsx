@@ -21,7 +21,7 @@ export default function MediaComponent(props: MediaComponentProps) {
         width={media.width ?? 1000}
       />
     ),
-    video: <Video className="object-cover" src={media.src} />,
+    video: <Video className="object-cover" primaryVideoUrl={media.src as string} />,
   }
 
   return mediaComponents[media.type]

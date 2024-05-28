@@ -22,4 +22,4 @@ const IconX = ({ fill = "red", rotate = 0 }: Props) => {
   )
 }
 
-export default IconX
+export { IconX }

@@ -1,0 +1,80 @@
+.formItem {
+  .input {
+    border: 1px solid var(--mystic-white);
+    border-radius: desktop-vw(5px);
+    padding: desktop-vw(8px) desktop-vw(20px);
+
+    color: var(--black);
+    font-family: var(--font-mukta);
+    font-weight: 400;
+    font-size: desktop-vw(14px);
+
+    &::placeholder {
+      color: var(--black);
+      font-family: var(--font-mukta);
+      font-weight: 400;
+      font-size: desktop-vw(14px);
+      transition: 400ms opacity ease;
+    }
+
+    &:focus {
+      &::placeholder {
+        opacity: 0.3;
+      }
+    }
+  }
+
+  .selectC {
+    gap: desktop-vw(10px);
+
+    color: var(--black);
+    font-family: var(--font-mukta);
+    font-weight: 400;
+    font-size: desktop-vw(14px);
+
+    .countryCodeTrigger {
+      @include dims(desktop-vw(150px), auto);
+      border: 1px solid var(--mystic-white);
+      border-radius: desktop-vw(5px);
+      padding: desktop-vw(10px) desktop-vw(20px);
+      z-index: 99999;
+    }
+
+    .countryCodeContent {
+      background: red;
+      z-index: 99999 !important;
+
+      .countryCodeItem {
+        padding: desktop-vw(10px) desktop-vw(20px);
+      }
+    }
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: desktop-vw(20px);
+
+  .row {
+    display: flex;
+    gap: desktop-vw(20px);
+
+    .fieldC {
+      flex: 1;
+    }
+  }
+
+  .submitBtn {
+    @include dims(desktop-vw(220px), desktop-vw(50px));
+    border-radius: desktop-vw(60px);
+    margin-top: desktop-vw(50px);
+
+    > span {
+      color: var(--black);
+      font-family: var(--font-mukta);
+      font-weight: 400;
+      font-size: desktop-vw(14px);
+    }
+  }
+}

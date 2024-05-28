@@ -1,4 +1,4 @@
-export const baseUrl = "pentasventures.com"
+export const baseUrl = "catalog.ferecatalog.com"
 
 export const routes = {
   home: {
@@ -7,7 +7,7 @@ export const routes = {
     path: "",
     ui: "Home",
     seo: {
-      title: "PENTAS VENTURES",
+      title: "FERE CATALOG",
       description: "We help founders build essential products and services for the next generation.",
     },
   },
@@ -17,7 +17,7 @@ export const routes = {
     path: "about-us",
     ui: "About Us",
     seo: {
-      title: "About Us | PENTAS VENTURES",
+      title: "About Us | FERE CATALOG",
       description:
         "We are a group of entrepreneurs that have a track record as founding team operators and early investors, taking commerce & technology startups from idea to products-market fit.",
     },
@@ -28,7 +28,7 @@ export const routes = {
     path: "portfolio",
     ui: "Portfolio",
     seo: {
-      title: "Portfolio | PENTAS VENTURES",
+      title: "Portfolio | FERE CATALOG",
       description: "We help founders build essential products and services for the next generation.",
     },
   },
@@ -38,7 +38,7 @@ export const routes = {
     path: "team",
     ui: "Team",
     seo: {
-      title: "Team | PENTAS VENTURES",
+      title: "Team | FERE CATALOG",
       description: "We help founders build essential products and services for the next generation.",
     },
   },
@@ -48,7 +48,7 @@ export const routes = {
     path: "news",
     ui: "News",
     seo: {
-      title: "News | PENTAS VENTURES",
+      title: "News | FERE CATALOG",
       description: "We help founders build essential products and services for the next generation.",
     },
   },

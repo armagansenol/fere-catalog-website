@@ -21,10 +21,10 @@
     display: flex;
     touch-action: pan-y;
     margin-left: calc(var(--slide-spacing) * -1);
-    width: 100%;
+    // width: 100%;
 
     .emblaSlide {
-      width: 100%;
+      // width: 100%;
 
       min-width: 0;
       padding-left: var(--slide-spacing);
@@ -33,7 +33,7 @@
 
       .emblaSlideContent {
         // overflow: hidden;
-        width: 100%;
+        // width: 100%;
       }
     }
   }

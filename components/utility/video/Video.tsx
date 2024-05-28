@@ -6,7 +6,7 @@ import cx from "clsx"
 
 export interface VideoProps extends React.VideoHTMLAttributes<HTMLVideoElement> {
   className?: string
-  primaryVideoUrl?: string
+  primaryVideoUrl: string
   primaryVideoType?: string
   secondaryVideoUrl?: string
   secondaryVideoType?: string

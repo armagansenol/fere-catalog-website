@@ -17,7 +17,7 @@ export default function CustomHead({
   image,
   keywords,
   themeColor = "#007538",
-  twitter = { handle: "@pentasventures" },
+  twitter = { handle: "@ferecatalog" },
 }: Props) {
   return (
     <>
@@ -34,7 +34,7 @@ export default function CustomHead({
         />
 
         <meta name="keywords" content={`${keywords && keywords.length ? keywords.join(",") : keywords}`} />
-        <meta name="author" content="PENTAS VENTURES" />
+        <meta name="author" content="bytemywork" />
         <meta name="referrer" content="no-referrer" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="geo.region" content="US" />
@@ -62,17 +62,17 @@ export default function CustomHead({
           description,
           type: "website",
           locale: "en_US",
-          images: [
-            {
-              url: image ? image.url : "/img/pentas-ventures-logo.png",
-              width: image?.width ? image.width : 522,
-              height: image?.height ? image.height : 84,
-              alt: title,
-            },
-          ],
+          // images: [
+          //   {
+          //     url: image ? image.url : "/img/pentas-ventures-logo.png",
+          //     width: image?.width ? image.width : 522,
+          //     height: image?.height ? image.height : 84,
+          //     alt: title,
+          //   },
+          // ],
           defaultImageWidth: 522,
           defaultImageHeight: 84,
-          site_name: "pentasventures.com",
+          site_name: "catalog.ferecatalog.com",
         }}
         twitter={{
           handle: twitter.handle,

@@ -5,11 +5,11 @@ import { useGSAP } from "@gsap/react"
 import cx from "clsx"
 import { useRef, useState } from "react"
 
-import sample from "@/public/img/g-1.jpg"
-import sample2 from "@/public/img/g-2.jpg"
-import sample3 from "@/public/img/g-3.jpg"
-import sample4 from "@/public/img/g-4.jpg"
-import sample5 from "@/public/img/g-5.jpg"
+import sample from "@/public/img/sample.jpg"
+import sample2 from "@/public/img/sample2.jpg"
+import sample3 from "@/public/img/sample3.jpg"
+import sample4 from "@/public/img/sample.jpg"
+import sample5 from "@/public/img/sample2.jpg"
 
 import { MediaComponent } from "@/components/utility/media-component"
 

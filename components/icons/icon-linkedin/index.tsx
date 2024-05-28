@@ -21,4 +21,4 @@ const IconLinkedin = ({ fill = "red", rotate = 0 }: Props) => {
   )
 }
 
-export default IconLinkedin
+export { IconLinkedin }
